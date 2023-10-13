@@ -1,0 +1,82 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running your program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named org - imported by pickle (optional)
+missing module named posix - imported by os (conditional, optional), shutil (conditional)
+missing module named resource - imported by posix (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed), py._path.local (delayed), _pytest._py.path (delayed)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), pathlib (delayed, conditional, optional), netrc (delayed, conditional), getpass (delayed), http.server (delayed, optional), webbrowser (delayed), py._path.local (delayed), _pytest._py.path (delayed)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named _posixshmem - imported by multiprocessing.resource_tracker (conditional), multiprocessing.shared_memory (conditional)
+missing module named _posixsubprocess - imported by subprocess (optional), multiprocessing.util (delayed)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named pyimod02_importers - imported by C:\Users\小平のNotebook\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), C:\Users\小平のNotebook\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
+missing module named typing_extensions - imported by pluggy._hooks (conditional), pluggy._manager (conditional), _pytest.compat (conditional), _pytest.outcomes (conditional), _pytest.hookspec (conditional), _pytest.config.argparsing (conditional), _pytest.scope (conditional), _pytest.reports (conditional), _pytest.runner (conditional), _pytest.terminal (conditional), _pytest.warnings (conditional), _pytest.main (conditional), _pytest.python (conditional), iniconfig (conditional), iniconfig.exceptions (conditional), _pytest._code.code (conditional), _pytest.capture (conditional), _pytest.tmpdir (conditional), _pytest.pytester (conditional), _pytest.legacypath (conditional), _pytest.logging (conditional), _pytest._py.error (conditional), pkg_resources._vendor.packaging.metadata (conditional, optional), packaging.metadata (conditional, optional)
+missing module named _manylinux - imported by packaging._manylinux (delayed, optional), pkg_resources._vendor.packaging._manylinux (delayed, optional)
+missing module named jnius - imported by pkg_resources._vendor.platformdirs.android (delayed, optional)
+missing module named platformdirs - imported by pkg_resources._vendor.platformdirs.__main__ (top-level)
+missing module named 'pkg_resources.extern.importlib_resources' - imported by pkg_resources._vendor.jaraco.text (optional)
+missing module named 'typing.io' - imported by importlib.resources (top-level)
+missing module named 'pkg_resources.extern.more_itertools' - imported by pkg_resources._vendor.jaraco.functools (top-level)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.platformdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named 'pkg_resources.extern.jaraco' - imported by pkg_resources (top-level), pkg_resources._vendor.jaraco.text (top-level)
+missing module named vms_lib - imported by platform (delayed, conditional, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional), selenium.webdriver.firefox.firefox_binary (delayed, optional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named termios - imported by getpass (optional), tty (top-level)
+missing module named 'Appium.base' - imported by E:\pycharm\PcAutomation\packages\test_case_set_proxy_settings.py (top-level)
+missing module named 'Appium.page_object' - imported by E:\pycharm\PcAutomation\packages\test_case_set_proxy_settings.py (top-level)
+missing module named Appium - imported by E:\pycharm\PcAutomation\packages\test_case_set_proxy_settings.py (top-level)
+missing module named urllib2 - imported by selenium.webdriver.common.utils (delayed, optional), selenium.webdriver.common.service (delayed, optional)
+missing module named StringIO - imported by selenium.webdriver.remote.webelement (optional), urllib3.packages.six (conditional)
+missing module named _uuid - imported by uuid (optional)
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection (optional)
+runtime module named urllib3.packages.six.moves - imported by http.client (top-level), urllib3.util.response (top-level), urllib3.connectionpool (top-level), 'urllib3.packages.six.moves.urllib' (top-level), urllib3.util.queue (top-level)
+missing module named backports - imported by urllib3.packages.ssl_match_hostname (optional)
+missing module named brotli - imported by urllib3.util.request (optional), urllib3.response (optional)
+missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request (top-level), urllib3.poolmanager (top-level)
+missing module named Queue - imported by urllib3.util.queue (conditional)
+missing module named httplib - imported by selenium.webdriver.safari.webdriver (optional), selenium.webdriver.blackberry.webdriver (optional), selenium.webdriver.webkitgtk.webdriver (optional)
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile (optional)
+missing module named copy_reg - imported by cStringIO (top-level)
+missing module named 'twisted.trial' - imported by _pytest.unittest (delayed)
+missing module named zope - imported by _pytest.unittest (delayed)
+missing module named twisted - imported by _pytest.unittest (conditional)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional)
+missing module named tomllib - imported by _pytest.config.findpaths (delayed, conditional)
+missing module named py.process - imported by py (top-level), py._path.svnurl (top-level)
+missing module named py.path - imported by py (top-level), py._path.svnurl (top-level)
+missing module named apipkg - imported by py (optional)
+missing module named 'importlib.resources.readers' - imported by _pytest.assertion.rewrite (delayed, conditional)
+missing module named 'importlib.readers' - imported by _pytest.assertion.rewrite (delayed, conditional)
+missing module named 'importlib.resources.abc' - imported by _pytest.assertion.rewrite (conditional)
+missing module named 'pygments.util' - imported by _pytest._io.terminalwriter (delayed, optional)
+missing module named 'pygments.lexers' - imported by _pytest._io.terminalwriter (delayed, optional)
+missing module named pygments - imported by _pytest._io.terminalwriter (delayed, optional)
+missing module named argcomplete - imported by _pytest._argcomplete (conditional, optional)
+missing module named numpy - imported by _pytest.python_api (delayed, conditional)
+missing module named pexpect - imported by _pytest.pytester (conditional), _pytest.legacypath (conditional)
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio (delayed, conditional), asyncio.events (delayed, conditional)

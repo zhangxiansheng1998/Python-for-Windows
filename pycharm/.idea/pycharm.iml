@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/web_test-main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pythonDemo v1.0" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wechat_temp-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface_test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Appium" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PcAutomation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Zhujia_Factory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bright_lemon_test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jsfk" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8 (2)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/Appium" />
+      </list>
+    </option>
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
